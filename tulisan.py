@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import datetime
 
 st.write("buku tulis 1")
 st.markdown("buku tulis 2")
@@ -11,5 +12,6 @@ st.text("buku tulis 8")
 st.latex("buku tulis 9X^2")
 st.divider()
 
-annotated_text("INI BUKU")
 
+
+st.column_config.DatetimeColumn(label=None, *, width=None, help=None, disabled=None, required=None, default=None, format=None, min_value=None, max_value=None, step=None, timezone=None)
