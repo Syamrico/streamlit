@@ -21,6 +21,11 @@ image = Image.open('tere3.jpeg')
 st.image(image, caption='Senyum indah setiap hari')
 st.divider()
 
+video_file = open('myvideo.mp4', 'rb')
+video_bytes = video_file.read()
+st.video(video_bytes)
+st.divider()
+
 data_df = pd.DataFrame(
     {
         "apps": [
@@ -42,6 +47,7 @@ st.data_editor(
     hide_index=True,
 )
 
+st.divider()
 # Cache the dataframe so it's only loaded once
 @st.cache_data
 def load_data():
