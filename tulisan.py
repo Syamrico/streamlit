@@ -51,3 +51,16 @@ st.checkbox("Use container width", value=False, key="use_container_width")
 
 df = load_data()
 st.dataframe(df, use_container_width=st.session_state.use_container_width)
+
+
+df = pd.DataFrame(
+    [
+       {"command": "st.selectbox", "rating": 4, "is_widget": True},
+       {"command": "st.balloons", "rating": 5, "is_widget": False},
+       {"command": "st.time_input", "rating": 3, "is_widget": True},
+   ]
+)
+edited_df = st.data_editor(df)
+
+favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]
+st.markdown(f"Your favorite command is **{favorite_command}** 🎈")
