@@ -30,7 +30,7 @@ st.data_editor(
     data_df,
     column_config={
         "apps": st.column_config.ImageColumn(
-            "Preview Image", width=large, help="Streamlit app preview screenshots"
+            "Preview Image", width="large", help="Streamlit app preview screenshots"
         )
     },
     hide_index=True,
