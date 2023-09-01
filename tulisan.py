@@ -41,8 +41,8 @@ st.data_editor(
 def load_data():
     return pd.DataFrame(
         {
-            "first column": [1, 2, 3, 4],
-            "second column": [10, 20, 30, 40],
+            "KOLOM PERTAMA": [1, 2, 3, 4],
+            "KOLOM KEDUA": [10, 20, 30, 40],
         }
     )
 
