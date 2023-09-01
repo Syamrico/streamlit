@@ -11,5 +11,5 @@ st.text("buku tulis 8")
 st.latex("buku tulis 9X^2")
 st.divider()
 
-annotated_text("INI" , ("ADALAH") , "BUKU")
+annotated_text("INI" , "ADALAH" , "BUKU")
 
