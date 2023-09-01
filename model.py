@@ -1,9 +1,9 @@
 # Read original dataset
-iris_df = pd.read_csv(“data/iris.csv”)
+iris_df = pd.read_csv("data/iris.csv")
 iris_df.sample(frac=1, random_state=seed)
 # selecting features and target data
-X = iris_df[[‘SepalLengthCm’, ‘SepalWidthCm’, ‘PetalLengthCm’, ‘PetalWidthCm’]]
-y = iris_df[[‘Species’]]
+X = iris_df[["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]]
+y = iris_df[['Species']]
 # split data into train and test sets
 # 70% training and 30% test
 X_train, X_test, y_train, y_test = train_test_split(
@@ -16,7 +16,7 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 # calculate accuracy
 accuracy = accuracy_score(y_test, y_pred)
-print(f”Accuracy: {accuracy}”) # Accuracy: 0.91
+print(f"Accuracy: {accuracy}") # Accuracy: 0.91
 
 # save the model to disk
-joblib.dump(clf, “rf_model.sav”)
+joblib.dump(clf, "rf_model.sav")
