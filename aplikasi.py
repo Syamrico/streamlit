@@ -4,7 +4,7 @@ import numpy as np
 # from prediction import predict
 
 st.title('Tebak ini Bunga apa ??')
-st.markdown('Toy model untuk bermain tebak bunga
+st.markdown('Toy model untuk bermain tebak bunga /
             setosa, versicolor, virginica')
 
 st.header("Plant Features")
