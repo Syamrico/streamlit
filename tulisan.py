@@ -15,13 +15,13 @@ st.divider()
 
 
 image = Image.open('tere2.jpg')
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='Senyum indah setiap hari')
 
 
 data_df = pd.DataFrame(
     {
         "apps": [
-            "https://github.com/Syamrico/streamlit/blob/bunga/tere3.jpeg",
+            "image = Image.open('tere2.jpg')",
             "https://github.com/Syamrico/streamlit/blob/bunga/tere3.jpeg",
             "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/31b99099-8eae-4ff8-aa89-042895ed3843/Home_Page.png",
             "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6a399b09-241e-4ae7-a31f-7640dc1d181e/Home_Page.png",
