@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+from PIL import Image
 import pandas as pd
 
 st.write("buku tulis 1")
@@ -13,6 +13,9 @@ st.text("buku tulis 8")
 st.latex("buku tulis 9X^2")
 st.divider()
 
+
+image = Image.open('tere2.jpg')
+st.image(image, caption='Sunrise by the mountains')
 
 
 data_df = pd.DataFrame(
