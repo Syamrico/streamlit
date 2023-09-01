@@ -7,7 +7,7 @@ st.title('Tebak ini Bunga apa ??')
 st.markdown('Toy model untuk bermain tebak bunga \
             setosa, versicolor, virginica')
 
-st.header("Plant Features")
+st.header("PENAMPILAN TANAMAN :")
 col1, col2 = st.columns(2)
 
 with col1:
