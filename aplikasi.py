@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from prediction import predict
 
-st.title(‘Classifying Iris Flowers’)
+st.title("Tebak ini Bunga apa")
 st.markdown(‘Toy model to play to classify iris flowers into \
 setosa, versicolor, virginica’)
 
