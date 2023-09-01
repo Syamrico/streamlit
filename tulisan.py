@@ -16,8 +16,10 @@ st.divider()
 
 image = Image.open('tere2.jpg')
 st.image(image, caption='Senyum indah setiap hari')
+st.divider()
 image = Image.open('tere3.jpeg')
 st.image(image, caption='Senyum indah setiap hari')
+st.divider()
 
 data_df = pd.DataFrame(
     {
