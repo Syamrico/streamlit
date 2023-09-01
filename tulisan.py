@@ -21,7 +21,7 @@ image = Image.open('tere3.jpeg')
 st.image(image, caption='Senyum indah setiap hari')
 st.divider()
 
-video_file = open('myvideo.mp4', 'rb')
+video_file = open('upin.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
 st.divider()
