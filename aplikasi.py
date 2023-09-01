@@ -4,8 +4,8 @@ import numpy as np
 from prediction import predict
 
 st.title("Tebak ini Bunga apa")
-st.markdown(‘Toy model to play to classify iris flowers into \
-setosa, versicolor, virginica’)
+st.markdown("Toy model to play to classify iris flowers into \
+setosa, versicolor, virginica")
 
 st.header(“Plant Features”)
 col1, col2 = st.columns(2)
